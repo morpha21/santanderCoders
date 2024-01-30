@@ -15,13 +15,3 @@ também não foi abordado no curso até então.
 Eu basicamente decidi encarar essas limitações como requisitos do projeto. 
 
 
-### Estado atual: 
-
-A análise foi iniciada. Já consta nela uma relação de técnicos, o time onde atingiram maior longevidade, e a quantidade de jogos em que atuaram no respectivo time. Há também uma 
-relação com a quantidade de pontos por partida que cada técnico obteve para cada time. 
-
-### Por fazer: 
-
-- Analisar a relação entre longevidade dos técnicos e a quantidade de pontos por partida que fazem;
-- Analisar a relação entre longevidade dos técnicos e a pontuação do time no campeonato;
-- Analisar a relação entre a pontuação do time no campeonato e a quantidade de pontos por partida do técnico mais longevo. 
