@@ -22,6 +22,7 @@ def adequate(df: pd.core.frame.DataFrame) -> pd.core.frame.DataFrame:
 		return df
 	df.columns = format_columns(df.columns)
 	df = df[df['rules'] == 'chess']
+	df = df[df['time_class'] != 'daily']
 	first_cols   = [col for col in
 			['white_username', 'white_uuid', 'white_result', 'white_rating',
 			'black_username', 'black_uuid', 'black_result', 'black_rating']
