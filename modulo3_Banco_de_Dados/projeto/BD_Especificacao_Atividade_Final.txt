@@ -1,0 +1,65 @@
+(Fique a vontade para usar esse modelo ER nos exercícios subsequentes ou não)
+
+# 1. Modelagem - Escolher uma especificação do projeto de bando de dados (trazer a especificação em arquivo de texto)
+em cima da especificação criar um modelo Entidade - Relacionamento (de preferência no BRModelo). O modelo ER deve conter alguns elementos obrigatórios, devidamente representados graficamente.
+- Entidade
+- Atributos (simples, compostos, monovalorados e multivalorados)
+- Relacionamentos (com cardinalidades variadas)
+- Opcional contendo entidades fracas e fortes
+
+(Entregável - A especificação em arquivo de texto e exportar o modelo ER no BRModelo)
+
+##############################################################################################################################################################################################################
+
+(Para esse exercício o professor irá sugerir um conjunto de tabelas desconexas e distintas necessitando respectivamente das primeira, segunda e terceira formas normais. Porém fiquem a vontade para proporem outras tabelas
+se necessário).
+
+# 2. Normalização
+- Apresentar uma tabela que precise normalizar na 1FN e apresentar ele depois normalizada
+- Apresentar uma tabela que precise normalizar na 2FN e apresentar ele depois normalizada
+- Apresentar uma tabela que precise normalizar na 3FN e apresentar ele depois normalizada
+
+(Entregável - Uma tabela contendo um campo multivalorado, ou seja precisando ser adequada através da 1FN e o resultado das tabelas geradas depois da normalização)
+(Entregável - Uma tabela já normalizada na 1FN, porém sem respeitar a RESTRIÇÃO FUNCIONAL TOTAL. Ou seja, precisando ser adequada através da 2FN e o resultado das tabelas geradas depois dessa normalização)
+(Entregável - Uma tabela já normalizada na 2FN, porém sem respeitar a RESTRIÇÃO TRANSITIVA. Ou seja, precisando ser adequada através da 3FN e o resultado das tabelas geradas depois dessa normalização)
+
+###############################################################################################################################################################################################################
+
+(Dos exercícios 3 ao 6 usar o mesmo banco de dados. Para os exercício envolvendo a implementação do banco em SQL - do 3 ao 6, inserir no mínimo 50 e sem limite máximo, a quantidade de registros para viabilizar de forma satisfatória as manipulações.)
+
+# 3. Comandos ddl para criar o banco - aula de ontem
+- Escolher um banco e criar suas respectivas tabelas com SQL e no SGBD que preferirem (MySQL, PostreSQL, SQL Server, Oracle)
+- Utilizar o alter table para alterar a estrutura de ao menos 1 tabela
+- Remover uma tabela e depois criar ela novamente
+
+(Entregável: Scripts SQL para DDL)
+
+
+# 4. Comando DML básico - crud (inserção, edição e remoção de dados nas tabelas) - aula de hoje
+- Realizar ao menos 5 inserções
+- Realizar ao menos 1 alteração de valor de um registro
+- Realizar ao menos 1 remoção de registro
+
+(Entregável: Scripts SQL para DML, as queries e o resultados das queries)
+
+# 5. Joins (left, right, inner, alter, full) - aula de segunda
+
+(Entregável: Scripts SQL para JOINS, os joins e o resultados das joins)
+
+# 6. Comands DML mais avançados ( group by, order by e Having - queries aninhadas) - aula de quarta
+
+(Entregável: Scripts SQL para Consultas Avançadas, as consultas e seus resultados)
+
+###############################################################################################################################################################################################################
+
+
+Observações Finais:
+
+- Para carregar o banco pode ser utilizada um arquivo csv ou outro qualquer (json, txt etc) proveniente de um reposótio de dados (ex. Kaggle e UCI). Senão, montar a base na mão utilizando SQL puro)
+- Apenas 1 integrante por grupo precisa apresentar (quem não puder estar presente não tem o que se preocupar)
+- Tempo de apresentação em torno de 10 minutos
+- A entrega pode ser feita por apenas 1 integrante por grupo no github
+- Todos devem ter esse projeto em seus respectivos githubs por questões de portfólio (na verdade montar um repositório para trabalhos de cada um dos módulos)
+
+
+

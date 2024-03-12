@@ -1,0 +1,74 @@
+############################ CONTEXTO#################################################
+Para celebrar o término do módulo de banco de dados no curso de Ciência de Dados da Ada, um grupo de sete amigos optou por uma viagem a Barcelona. Decidiram explorar os pontos turísticos da cidade, utilizando uma base de dados do Airbnb para encontrar acomodações próximas e com excelentes condições. Os dados obtidos da base de dados foram os seguintes:
+
+Dados dos anfitriões do Airbnb:
+
+host_id
+	Identificação única do anfitrião.
+location
+	Localização do Airbnb.
+host_name 
+	Nome do anfitrião.
+date_check_in	
+date_check_out
+	Para entender a duração da estadia dos hóspedes e identificar padrões de reserva.
+number_of_guests
+	Para saber quantas pessoas estão hospedadas em cada reserva. 
+room_type 
+	Para entender os tipos de quartos mais reservados (Entire home/apt, Private room).
+booking_type
+	Se a reserva foi feita individualmente, em grupo, ou para eventos específicos (por exemplo, conferências, férias em família, etc.)
+price
+	Para entender a média de preço das acomodações.	
+total_number_of_reviews
+	Para saber quantas reviews no total o local possui 
+reviews_per_month
+	Para saber quantas reviews por mês o local recebe.
+bookin_channel
+	Para saber se a reserva foi feita diretamente através do Airbnb, por meio de um agente de viagens, ou outro canal.
+availability_365
+	Para saber oúmero de dias em que o anúncio está disponível para reserva.
+rating
+	Uma pontuação ou comentário dado pelo hóspede após a estadia, para entender melhor a experiência do usuário.
+
+Dados dos hóspedes:
+
+guest_cpf
+	Identificador único do hópede
+guest_name
+	Nome do hóspede
+guest_age
+	Para saber a média de idades 
+guest_city_origin
+	Para entender melhor de quais cidades os hóspedes são.
+guest_profession
+	Para saber qual a profissão qua mais se hóspeda no local.
+Sugira quais consultas podemos fazer para explorar essa base de dados
+
+############################ ANÁLISES QUE PODEMOS FAZER#################################################
+
+Análise de ocupação e disponibilidade:
+
+Qual é a média de dias disponíveis por ano para as acomodações listadas?
+Quais são os períodos de maior e menor ocupação ao longo do ano?
+Qual é a porcentagem de ocupação média ao longo do ano para cada tipo de quarto (Entire home/apt, Private room)?
+Avaliações e desempenho do anfitrião:
+
+Qual é a média de avaliação dos anfitriões?
+Existe uma correlação entre o número de avaliações por mês e a média de avaliação do anfitrião?
+Quais são os anfitriões com o maior número de avaliações e qual é a média de suas avaliações?
+Perfil dos hóspedes:
+
+Qual é a média de idade dos hóspedes que reservam acomodações?
+De quais cidades os hóspedes mais frequentemente reservam acomodações?
+Qual é a profissão mais comum entre os hóspedes que reservam acomodações?
+Preços e tipos de reserva:
+
+Qual é a média de preço por tipo de quarto (Entire home/apt, Private room)?
+Existe uma diferença significativa de preço entre reservas individuais e em grupo?
+Qual é a média de preço para reservas feitas através de diferentes canais de reserva?
+Padrões de reserva:
+
+Qual é a média de dias reservados por reserva?
+Existe uma correlação entre a duração da estadia e o número de hóspedes?
+Quais são os meses do ano com o maior número de reservas?
