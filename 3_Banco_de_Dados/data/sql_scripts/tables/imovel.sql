@@ -7,7 +7,6 @@ CREATE TABLE imovel (
     titulo VARCHAR(100),
     endereco VARCHAR(200),
     tipo_imovel VARCHAR(100),
-    tipo_reserva VARCHAR(100),
     limite_hospede INT,
     descricao VARCHAR(2000),
     horario_checkin TIME,
