@@ -1,0 +1,23 @@
+CREATE TABLE imovel (
+    id_imovel INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    cpf_anfitriao VARCHAR(11),
+    CONSTRAINT fk_cpf_anfitriao FOREIGN KEY (cpf_anfitriao) REFERENCES anfitriao(cpf),
+    avaliacao FLOAT,
+    preco_per_noite FLOAT,
+    titulo VARCHAR(100),
+    endereco VARCHAR(200),
+    tipo_imovel VARCHAR(100),
+    tipo_reserva VARCHAR(100),
+    limite_hospede INT,
+    descricao VARCHAR(2000),
+    horario_checkin TIME,
+    horario_checkout TIME,
+    qnt_banheiros INT,
+    qnt_quartos INT,
+    wifi BOOLEAN,
+    tv BOOLEAN,
+    pet_friendly BOOLEAN,
+    ar_condicionado BOOLEAN,
+    piscina BOOLEAN,
+    churrasqueira BOOLEAN
+);
